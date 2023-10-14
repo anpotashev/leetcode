@@ -54,7 +54,7 @@ class Solution {
             }
             if (aChar == '.') return true;
             for (char c: s.toCharArray()) {
-                if (c != aChar) return false
+                if (c != aChar) return false;
             }
             return true;
         }
